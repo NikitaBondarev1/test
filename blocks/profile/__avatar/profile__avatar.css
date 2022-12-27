@@ -1,0 +1,8 @@
+.profile__avatar {
+  max-width: 120px;
+  max-height: 120px;
+  background-image: url(../../../images/avatar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: aliceblue;
+}
