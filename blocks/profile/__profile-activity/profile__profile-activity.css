@@ -7,3 +7,12 @@
   line-height: 22px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 665px) {
+  .profile__profile-activity {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 7px 0 0 0;
+    padding-left: 21px;
+  }
+}

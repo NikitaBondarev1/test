@@ -8,3 +8,19 @@
   grid-auto-flow: column;
   grid-template-columns: min-content;
 }
+
+@media screen and (max-width: 665px) {
+  .profile {
+    margin: 42px 19px 0 19px;
+    grid-template-rows: none;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .profile {
+    margin: 42px 0 0 0;
+  }
+}
