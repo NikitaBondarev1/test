@@ -67,20 +67,26 @@
           </div>
         </article>
       </section>
+
+
+      <section class="popup">
+        <div class="popup__container">
+          <button class="popup__close" type="button"></button>
+          <h2 class="popup__title">Редактировать профиль</h2>
+    
+          <form class="popup__info" action="submit" name="popup__info">
+            <input class="popup__name popup__name_input" type="text" name="name" value="" placeholder="Имя">
+            <input class="popup__subtitle popup__subtitle_work" type="text" name="work" value="" placeholder="Род деятельности">
+            <button class="popup__button" type="submit">Сохранить</button>
+          </form>
+        </div>
+      </section>
     </main>
+
     <footer class="footer">
       <p class="footer__text">&copy; 2022 Mesto Russia</p>
     </footer>
   </div>
-  <section class="popup">
-    <div class="popup__container">
-      <div class="popup__info">
-        <h2 class="popup__title">Редактировать профиль</h2>
-        <p class="popup__name">Жак-Ив Кусто</p>
-        <p class="popup__subtitle">Исследователь океана</p>
-      </div>
-      <button class="popup__button" type="submit">Сохранить</button>
-    </div>
-  </section>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

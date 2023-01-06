@@ -10,11 +10,11 @@
   background-image: url(../../../images/button/Add-Button.png);
   background-position: center;
   background-size: auto;
-  cursor: pointer;
 }
 
 .profile__add-button:hover {
-  opacity: 0.6;
+  opacity: .6;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 665px) {
