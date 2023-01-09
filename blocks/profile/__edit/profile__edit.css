@@ -1,9 +1,9 @@
 .profile__edit {
-  width: 24px;
-  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
   margin: 19px 0 0 19px;
   padding: 0;
-  background-image: url(../../../images/button/Edit-Button.png);
+  background-image: url(../../../images/button/Edit-Button.svg);
   background-size: contain;
   background-repeat: no-repeat;
   border: none;

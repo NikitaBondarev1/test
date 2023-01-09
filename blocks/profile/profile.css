@@ -9,7 +9,7 @@
   grid-template-columns: min-content;
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 705px) {
   .profile {
     margin: 42px 0 0;
     grid-template-rows: none;
